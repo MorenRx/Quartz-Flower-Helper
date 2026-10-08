@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "top.morenrx.quartz_flower_helper.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "quartz_flower_helper.refmap.json",
+  "mixins": [],
+  "client": [
+    "ArtificialFlowerScreenMixin",
+    "ClientPacketListenerMixin",
+    "ArtificialFlowerItemMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
